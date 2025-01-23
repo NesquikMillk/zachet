@@ -26,7 +26,7 @@
 
     <!-- 2. Rotating Cube (Positioned to the left of the sphere) -->
     <a-box 
-      position="-2 1.5 -5"  
+      position="-2 1.5 -3"  
       depth="1" 
       height="1" 
       width="1" 
@@ -36,7 +36,7 @@
 
     <!-- 3. Pulsating Cylinder (Positioned to the right of the sphere) -->
     <a-cylinder 
-      position="2 1 -5"
+      position="2 1.5 -3"
       radius="0.7" 
       height="2" 
       src="q3.png" 
@@ -45,14 +45,14 @@
 
     <!-- 4. Floating Tetrahedron (Positioned above the sphere) -->
     <a-entity geometry="primitive: tetrahedron" 
-      position="0 2.5 -5"  
+      position="0 3 -3"  
       material="src: q4.png" 
-      animation="property: position; to: 0 3 -5; loop: true; dur: 1500; dir: alternate">
+      animation="property: position; to: 0 3.5 -3; loop: true; dur: 1500; dir: alternate">
     </a-entity>
 
     <!-- 5. Spinning Torus (Positioned below the sphere) -->
     <a-torus 
-      position="0 0.5 -5"  
+      position="0 0 -3"  
       radius="0.8" 
       radius-tubular="0.2" 
       src="q5.png" 

@@ -1,4 +1,9 @@
-body  {
+body {
+  margin: 0;
+  overflow: hidden;
+  background-color: #fff; /* Фон всей страницы изменён на белый */
+}
+#vr-scene {
   position: absolute;
   top: 0;
   left: 0;
@@ -8,11 +13,11 @@ body  {
 }
 
 .legend {
-position: absolute;
-top: 10px; /* Отступ сверху */
-left: 10px; /* Отступ слева */
-color: #fff; /* Цвет текста */
-z-index: 2; /* Легенда поверх VR-сцены */
-padding: 20px;
+  position: absolute;
+  top: 10px; /* Отступ сверху */
+  left: 10px; /* Отступ слева */
+  color: #fff; /* Цвет текста */
+  z-index: 2; /* Легенда поверх VR-сцены */
+  padding: 20px;
   background-color: rgba(0, 0, 0, 0.7);
 }
